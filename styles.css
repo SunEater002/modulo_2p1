@@ -1,0 +1,53 @@
+header{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color:brown;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: bisque;
+    padding: 100px;
+    text-align:start;
+}
+
+main h2{
+    color: blue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main button{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: aliceblue;
+    display: inline-block;
+    margin: 50px;
+}
+
+main button:hover{
+    transition: 0.1s;
+    background-color:rgb(90, 15, 160);
+    color:antiquewhite;
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3{
+    color: brown;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
