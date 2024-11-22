@@ -2,6 +2,10 @@ html{
     background-color:rgba(97, 107, 104, 0.932) ;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 header{
     background-color: rgb(248, 248, 248);
     padding: 10px;
