@@ -2,9 +2,9 @@ let currentSection = 0;
 const sections = document.querySelectorAll('.seccion1');
 
 function showSections(index) {
-    // Activa la sección actual y la siguiente
+    // Activa la sección actual y las siguientes
     sections.forEach((section, i) => {
-        section.classList.toggle('active', i === index || i === (index + 1) % sections.length);
+        section.classList.toggle('active', i === index || i === (index + 1) || i === (index + 2));
     });
 }
 
